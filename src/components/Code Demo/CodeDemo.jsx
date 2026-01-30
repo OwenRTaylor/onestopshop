@@ -6,18 +6,11 @@ export default function CodeDemo() {
 			template="react"
 			files={{
 				"/App.js": `
-        import {Sandpack} from "@codesandbox/sandpack-react";
+       
         export default function App() {
-        return (
-        <Sandpack
-          template="react"
-          files={{
-            
-            "/App.js": \`
-              export default function App() {
-                return <h1>Hello World</h1>;
-              }
-            \`,
+          return <h1>Hello World</h1>;
+        }
+      `,
           }}
         />
 

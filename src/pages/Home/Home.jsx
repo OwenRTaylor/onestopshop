@@ -22,6 +22,13 @@ const topics = [
 		link: "/react",
 		imageUrl: "images/react-temp.png",
 	},
+	{
+		id: "sandpack",
+		topic: "Sandpack",
+		description: "An online code editor/previewer built for embedding",
+		link: "/sandpack",
+		imageUrl: "images/sandpack-temp.png",
+	},
 ];
 
 export default function Home() {

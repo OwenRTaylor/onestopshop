@@ -1,5 +1,4 @@
-import CodeDemo from "../../components/Code Demo/CodeDemo";
-
+import CodeDemo from "../../components/Code Demo/CodeDemoUnstlyed";
 export default function Contact() {
 	return (
 		<div>
@@ -8,6 +7,7 @@ export default function Contact() {
 
 			<h2>CodeDemo(Sandpacker)</h2>
 			<CodeDemo />
+			<h2>CodeDemoUnstyled(Sandpacker unstyled)</h2>
 		</div>
 	);
 }
