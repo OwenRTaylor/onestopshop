@@ -1,3 +1,5 @@
+import {CodeDemoExample} from "../../components/Code Demo/CodeDemoUnstlyed"
+import {CodeDemo} from "../../components/Code Demo"
 export default function SandpackTopic() {
 	return (
 		<div>
@@ -17,6 +19,19 @@ export default function SandpackTopic() {
 				Sandpacker is used in this project exntesively for code exampeles in the
 				javascript ecosystem
 			</p>
+			<h2>Example CodeDemo:</h2>
+			<p>
+				this is an example of a Code Example I would use in this site Sandpack allows
+				me to render a code editor and preview of most of the javascript ecosystem this
+				for instance is an example of  a simple hello world in react
+			</p>
+			<CodeDemo/>
+			<h2>Example of the example:</h2>
+			<p>
+				this is an example of the previous example being made in Sandpack
+				
+			</p>
+			<CodeDemoExample />
 		</div>
 	);
 }

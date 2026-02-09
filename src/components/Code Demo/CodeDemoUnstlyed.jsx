@@ -25,7 +25,7 @@ var files = {
         )
 }`,
 };
-export default function CodeDemo() {
+export default function CodeDemoExample() {
 	return (
 		<SandpackProvider
 			template="react"
